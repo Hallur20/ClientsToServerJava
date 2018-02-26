@@ -18,7 +18,7 @@ import java.net.Socket;
 public class Client {
 
     public static void main(String[] args) throws Exception {
-        Client client = new Client("localhost", 3333);
+        Client client = new Client("195.249.186.237", 3333);
         //new TcpClient("127.0.0.1", 9876);
         //new TcpClient("example.com", 9876); //Domain name
         //new TcpClient("111.111.111.111", 9876); //Public IP
